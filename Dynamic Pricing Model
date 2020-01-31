@@ -1,0 +1,21 @@
+Approach
+
+
+Determine demand function using two years of bookings for the guest suite and party room
+intercept+(slope*price)=Quantity
+	Using a linear regression, the models are as follows:
+Guest Suite: 
+3.2463+(-0.009*price)=Quantity
+
+Party Room:
+34.4945+(-1.1492*price)=Quantity
+NB: this function will need to be updated at an agreed time interval
+	Determine the revenue equation by multiplying the demand function by price
+
+(〖Quantity〗^2/slope)+ (intercept/slope*quantity)=Revenue
+
+	Take the first derivative of the revenue equation with respect to price, set it to zero and solve price, to determine optimal pricing
+-intercept/(2*Slope)=P_opt
+
+
+Create a table that stores the Popt, slope and intercept for the
